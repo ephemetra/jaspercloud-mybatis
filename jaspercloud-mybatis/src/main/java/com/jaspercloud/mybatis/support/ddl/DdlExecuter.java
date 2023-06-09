@@ -19,6 +19,9 @@ import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
+/**
+ * 生成ddl_history表，version字段用于记录sql脚本执行情况
+ */
 public class DdlExecuter {
 
     @Autowired

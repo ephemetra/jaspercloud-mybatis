@@ -20,6 +20,10 @@ import java.util.Map;
 /**
  * Created by TimoRD on 2017/9/7.
  */
+
+/**
+ * 执行sql脚本
+ */
 public class JasperCloudDataSourceFactoryBean implements InitializingBean, FactoryBean<DataSource> {
 
     private String name;
